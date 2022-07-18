@@ -1,0 +1,12 @@
+int motorcontrol = 9 ;
+  void setup ()
+{
+  pinMode (motorcontrol , OUTPUT) ;
+}
+void loop ()
+{
+ 
+int speed = 150;
+analogWrite (motorcontrol , speed) ;
+  delay (1000);
+}
